@@ -1,0 +1,29 @@
+.description-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: lightgray;
+    margin: 8px;
+    span{
+        font-size: 12px;
+    }
+    a {
+        text-decoration: none;
+        padding-left: 10px;
+        color: #0d578d;
+        font-weight: 500;
+        font-size: 14px;
+    }
+  }
+ul {
+  list-style: none;
+  line-height: 40px;
+  padding: 0 20px;
+
+  li {
+    font-weight: 400;
+    font-size: 14px;
+    color: #0d578d;
+  }
+}

@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-mdc-paginator-container {
+  justify-content: flex-start;
+}
+.mdc-text-field--no-label:not(.mdc-text-field--outlined):not(
+    .mdc-text-field--textarea
+  )
+  .mat-mdc-form-field-infix {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+}
+.mat-mdc-form-field-flex {
+  display: flex;
+}
+.mdc-button .mdc-button__label {
+  display: flex;
+  align-items: center;
+}
+.mdc-text-field--no-label:not(.mdc-text-field--textarea) .mat-mdc-form-field-input-control.mdc-text-field__input, .mat-mdc-text-field-wrapper .mat-mdc-form-field-input-control {
+  height: 40px !important;
+}
+td.mat-mdc-cell.mdc-data-table__cell.cdk-cell.cdk-column-numEntities.mat-column-numEntities.ng-star-inserted {
+  text-align: center;
+}
+.mat-sort-header-content {
+  color: grey;
+  font-size: 14px;
+  font-weight: 500;
+}
+

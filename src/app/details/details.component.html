@@ -1,0 +1,9 @@
+<div class="description-header">
+  <span>No Description yet</span>
+  <a href="#">+ Add Description</a>
+</div>
+<ul *ngIf="data">
+  <li *ngFor="let detail of data?.details">
+    {{ detail }}
+  </li>
+</ul>
